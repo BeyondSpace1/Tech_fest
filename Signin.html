@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Form</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Comic Sans MS', 'Veranda';
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        body {
+            background: url('img-1.png') no-repeat;
+            background-size: cover;
+            background-color: black;
+        }
+
+        .a {
+            color: white;
+            background-color: rgba(95, 85, 85, 0.5);
+            border-radius: 10px;
+            position: absolute;
+            top: 40%;
+            left: 42%;
+            width: auto;
+        }
+
+
+        #text {
+            color: whitesmoke;
+            font-size: 25px;
+            text-shadow: 1px 1px #800080;
+            text-align: center;
+        }
+
+        .a1 {
+            padding: 10px;
+        }
+
+        #uname {
+            background: none;
+            margin: 5px;
+            color: white;
+            font-size: 20px;
+            border: none;
+        }
+
+        #pword {
+            background: none;
+            border: none;
+            margin: 5px;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        #sub {
+            background: purple;
+            color: white;
+            border: purple;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 3px;
+            cursor: pointer;
+        }
+
+        #sub:hover {
+            background-color: white;
+            color: purple;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <div id="text">
+            <h2>Sign In</h2>
+        </div>
+        <div class="a1">
+            <form action="#">
+                <div><input type="text" name="uname" placeholder="Enter Your Name" id="uname"></div>
+                <div><input type="password" name="pword" placeholder="Enter Your Password" id="pword"></div>
+                <div><input type="submit" id="sub"></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
