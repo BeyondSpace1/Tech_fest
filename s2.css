@@ -111,7 +111,7 @@ body{
     height: 100%;
 }
 .a2{
-    border: 2px dashed black;
+/*     border: 2px dashed black; */
     background-image: linear-gradient(150deg,rgb(58, 209, 28) 10%, rgb(14, 211, 211) 30%,  rgb(255,255,0) );
     height: 200px;
     margin-top: 5px;
